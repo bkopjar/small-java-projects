@@ -1,7 +1,4 @@
 /*
-
-This is a demo task.
-
 Write a function:
 
     class Solution { public int solution(int[] A); }
@@ -11,15 +8,6 @@ does not occur in A.
 
 For example, given A = [1, 3, 6, 4, 1, 2], the function should return 5.
 
-Given A = [1, 2, 3], the function should return 4.
-
-Given A = [−1, −3], the function should return 1.
-
-Write an efficient algorithm for the following assumptions:
-
-        N is an integer within the range [1..100,000];
-        each element of array A is an integer within the range [−1,000,000..1,000,000].
-        
 */
 
 package task.smallest_positive_integer;
@@ -52,7 +40,7 @@ public class SmallestPositiveInteger {
 
 	public static void main(String[] args) {
 		
-		int A[] = {1, 3, 2, 4, 6};
+		int A[] = {-2, 1, 3, 2, 4, 6};
 		System.out.print("Array:[");
 		for (int i = 0; i < A.length; i++) {
 			System.out.print(A[i]);
